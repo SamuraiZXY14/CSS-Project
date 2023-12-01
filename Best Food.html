@@ -7,9 +7,11 @@
     <link href="2.css" type="text/css" rel="stylesheet">
 </head>
 <body>
- <a href=".html"> BACK</a>
+ <br>
+    <a href="2.html"> BACK</a>
+ <button onclick="color(),red()" class="button">Click Me To Change Table Color</button>
 <br><br><br><br>
- <table class="styled-table" width="750" height="500" >
+ <table class="styled-table" width="750" height="500" id="tabl" >
 <thead>
     <tr>
         <th>Food</th>
@@ -54,5 +56,14 @@
 
 </tbody>
 </table>
+<script>
+    	function color() {
+ var colar = prompt("What is your color?");
+  document.getElementById("tabl").style.backgroundColor = colar;
+}
+function red(){
+    alert("MY BAD FOR NOT CHANGING CONTENT BUT RANDOMLY THE THEME")
+}
+</script>
 </body>
 </html>

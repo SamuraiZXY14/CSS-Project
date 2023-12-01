@@ -12,13 +12,13 @@ html{
     background-image: url("0heh.jpeg");
     background-size: 1450px 1000px;}
 p{
-    color: saddlebrown;
+    color: rgb(0, 0, 0);
     font-size: 50px;
     padding: 25px 100px 25px;
     font-weight: 1000;
 }
 ul{
-    color: saddlebrown;
+    color: rgb(0, 0, 0);
     font-size: 70px;
     padding-left: 100px;
         
@@ -36,8 +36,8 @@ img{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   }
   .styled-table thead tr {
-    background-color: #984f00;
-    color: #000000;
+    background-color: #4e4e4e;
+    color: #ffffff;
     text-align: left;
   }
   .styled-table th,
@@ -45,13 +45,13 @@ img{
     padding: 12px 15px;
   }
   
-  .styled-table tbody tr:nth-of-type(even) {
-    background-color: #356020;
-  }
-  .styled-table tbody tr:nth-of-type(odd) {
-    background-color: #356020;
-  }
+  
   .styled-table tbody tr.active-row {
     font-weight: bold;
     color: #000000;
+  }
+  .button {
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #0680de;
   }
